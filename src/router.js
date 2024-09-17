@@ -7,9 +7,8 @@ import AppAbout from './components/About.vue'
 Vue.use(Router)
 
 // The 'vision' component holds both the image and analysis steps, whereas 'guide' and 'about' take you to those specific pages.
-
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {

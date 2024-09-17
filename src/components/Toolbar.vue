@@ -27,9 +27,9 @@ export default {
     return {
       // 菜單項目
       menu: [
-        { title: 'Vision', link: '/' },
-        { title: 'Contact', link: '/contact' },
-        { title: 'About', link: '/about' }
+        { title: 'Vision', link: '/#/' },
+        { title: 'Contact', link: '/#/contact' },
+        { title: 'About', link: '/#/about' }
       ]
     }
   },
