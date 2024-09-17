@@ -2,16 +2,16 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
     <div class="container">
       <!-- 品牌 Logo 和名稱 -->
-      <a class="navbar-brand fw-bold fs-4 px-2" href="#" @click="rerender">
+      <router-link class="navbar-brand fw-bold fs-4 px-2" to="/" @click="rerender">
         <img src="/img/icons/teamlogo.png" alt="MEC Vision Logo" class="d-inline-block align-top" width="40" height="40" />
         <span class="font-weight-black">Mosquitto-Egg-Count</span>
-      </a>
+      </router-link>
 
       <!-- 導航菜單，僅針對電腦版 -->
       <div class="collapse navbar-collapse show" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item" v-for="(item) in menu" :key="item.title">
-            <a class="nav-link" :href="item.link">{{ item.title }}</a>
+            <router-link class="nav-link" :to="item.link">{{ item.title }}</router-link>
           </li>
         </ul>
       </div>
@@ -24,15 +24,14 @@ import { eventBus } from '../main.js'
 
 export default {
   data () {
-    return {
-      // 菜單項目
-      menu: [
-        { title: 'Vision', link: '/#/' },
-        { title: 'Contact', link: '/#/contact' },
-        { title: 'About', link: '/#/about' }
-      ]
-    }
-  },
+  return {
+    menu: [
+      { title: 'Vision', link: '/' },
+      { title: 'Contact', link: '/contact' },
+      { title: 'About', link: '/about' }
+    ]
+  }
+},
   methods: {
     // 重新渲染的功能
     rerender () {
