@@ -20,10 +20,6 @@ self.__precacheManifest = [
     "url": "/index.html"
   },
   {
-    "revision": "3ea010bacce16e0ebc8efe49adcb3dcb",
-    "url": "/img/left-arrow.png"
-  },
-  {
     "revision": "239138213a1e90658bc4fcc297dcacf6",
     "url": "/img/example.jpg"
   },
@@ -32,16 +28,20 @@ self.__precacheManifest = [
     "url": "/img/right-arrow.png"
   },
   {
+    "revision": "3ea010bacce16e0ebc8efe49adcb3dcb",
+    "url": "/img/left-arrow.png"
+  },
+  {
     "revision": "20f7377552ea1611d841d097a87993b8",
     "url": "/img/type-paper-thumb.jpg"
   },
   {
-    "revision": "d3b374f148f42e909837a960a69a080a",
-    "url": "/img/type-paper.jpg"
-  },
-  {
     "revision": "6b8c54c53890eb0714d6e2430179a394",
     "url": "/img/Team_Tab_BG.png"
+  },
+  {
+    "revision": "d3b374f148f42e909837a960a69a080a",
+    "url": "/img/type-paper.jpg"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",

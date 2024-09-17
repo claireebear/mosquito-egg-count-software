@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1fff8b6d54d1939f176016287ec3a85f.js"
+  "/precache-manifest.2ff2c2939efbbdfed2678a2214a7f6f5.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "mec-vision"});
