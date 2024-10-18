@@ -12,6 +12,11 @@
         <p class="fs-5 d-none d-sm-block">
           - A mosquito egg count analyzer dedicated to the iGEM Competition
         </p>
+        <p>
+          Github repository available at: 
+          <a href = 'https://github.com/claireebear/mosquito-egg-count-software'> https://github.com/claireebear/mosquito-egg-count-software</a>
+        </p>
+        
       </div>
     </div>
   </div>
