@@ -4,7 +4,7 @@
       <!-- 品牌 Logo 和名稱 -->
       <router-link class="navbar-brand fw-bold fs-4 px-2" to="/" @click="rerender">
         <img src="/img/icons/teamlogo.png" alt="MEC Vision Logo" class="d-inline-block align-top" width="40" height="40" />
-        <span class="font-weight-black">Mosquitto-Egg-Count</span>
+        <span class="font-weight-black">Mosquito-Egg-Count</span>
       </router-link>
 
       <!-- 導航菜單，僅針對電腦版 -->
