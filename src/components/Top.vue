@@ -14,8 +14,11 @@
         </p>
         <p>
           Github repository available at: 
-          <a href = 'https://github.com/claireebear/mosquito-egg-count-software'> https://github.com/claireebear/mosquito-egg-count-software</a>
+          <a href="https://github.com/claireebear/mosquito-egg-count-software" style="text-decoration: underline;">
+            https://github.com/claireebear/mosquito-egg-count-software
+          </a>
         </p>
+
         
       </div>
     </div>
