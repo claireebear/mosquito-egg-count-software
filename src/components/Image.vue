@@ -51,13 +51,12 @@ The image itself is then passed on via the 'accept' method below. -->
   <!-- Icons are loaded with Google Material icons. -->
   <v-btn
     id="croppaButton" v-show="!croppa.imageSet" @click="croppa.chooseFile()" flat large depressed absolute>
-    {{ $t('Select Image') }}
-    <v-icon large right>photo</v-icon>
+    {{ $t('Select Image from your device') }}
   </v-btn>
 
   <!-- Allowed to load a demo image as a way to test and demonstrate app functionality. -->
   <v-btn v-show="!croppa.imageSet" @click="loadDemoImage()" absolute  right style="top: 25px">
-    {{ $t('Demo Image') }}
+    {{ $t('Use Sample Image') }}
     <v-icon right>grain</v-icon>
   </v-btn>
 
@@ -179,13 +178,14 @@ a {
 #croppaButton.v-btn:hover:before, #croppaButton.v-btn:focus:before {
   color: transparent;
 }
-
+  
 #croppaBox {
   margin: auto;
   display: block;
-  border: 3px dashed var(--v-primary-base);
+  border: 4px dashed #C94C67;
   border-radius: 0px;
 }
+
 
 .croppa-container {
   width: 100%;
